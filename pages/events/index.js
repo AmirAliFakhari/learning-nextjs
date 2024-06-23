@@ -20,7 +20,7 @@ function AllEventsPage(props) {
     <Fragment>
       <Head>
         <title>salam</title>
-        <meta name='description' content='salsm ' />
+        <meta name='description' content='salsm' meta="description" />
       </Head>
       <EventsSearch onSearch={findEventsHandler} />
       <EventList items={events} />
